@@ -37,7 +37,7 @@ public class Main {
                 case 6:
                     do {
                         mostrarCarros();
-                        System.out.print("Ingrese el numero del carro a mostrar: ");
+                        System.out.print("Ingrese un numero: ");
                         op2 = sc.nextInt();
                         switch (op2) {
                             case 1:
@@ -81,7 +81,7 @@ public class Main {
         System.out.println("3. Mostrar datos del vehiculo 3");
         System.out.println("4. Mostrar datos del vehiculo 4");
         System.out.println("5. Mostrar datos del vehiculo 5");
-        System.out.println("0. Regresar");
+        System.out.println("0. Regresar al menu principal");
     }
     static void llenar() {
         System.out.println("DATOS AGREGADOS CORRECTAMENTE");
